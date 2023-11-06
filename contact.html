@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Meta tags for SEO -->
+      <meta
+        name="description"
+        content="Play Rock Paper Scissors Lizard Spock - the beloved game inspired by 'The Big Bang Theory.' Master the rules, and have endless fun with this hilarious and strategic twist on the classic game. Join us in the world of RPSLS today!"
+      />
+      <meta
+        name="keywords"
+        content="RPSLS game, Rock Paper Scissors Lizard Spock, Multiplayer game, Strategic gameplay, Fun challenges, The Big Bang Theory, Sheldon Cooper, Hilarious twist, Strategic gaming, Classic game with a twist, Game rules, Play online, Competitive gaming, Entertaining gameplay"
+      />
+      <!-- Title -->
+      <title>RPSLS - Play now!</title>
+      <!-- Favicon -->
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="assets/favicon/apple-touch-icon.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="assets/favicon/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="assets/favicon/favicon-16x16.png"
+      />
+      <!-- Google fonts import -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+      />
+      <!-- Stylesheet -->
+      <link rel="stylesheet" href="assets/css/styles.css" />
+    </head>
+
+    <body>
+      <!-- Navigation -->
+      <div class="navbar">
+        <div class="logo"><a href="index.html">RPSLS</a></div>
+        <div class="menu">
+          <a href="/play.html">Play</a>
+          <a href="/rules.html">Rules</a>
+          <a href="/contact.html">Contact Us</a>
+        </div>
+        <!-- Mobile menu -->
+        <div class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="mobile-menu">
+        <a href="/play.html">Play</a>
+        <a href="/rules.html">Rules</a>
+        <a href="/rules.html">Contact Us</a>
+      </div>
+      <!-- Main content -->
+      <div class="contact-form">
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+          <div class="main">
+            <div class="form-content">
+              <h2>Send us a message!</h2>
+              <p>
+                If you have any questions, queries, concerns, feedback or even
+                ideas for new features, please feel free to contact us by
+                filling in the form below!
+              </p>
+              <form action="#" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" />
+                <input
+                  type="email"
+                  name="name"
+                  placeholder="Enter Your Email"
+                />
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <a href="mailto:guledyusufwork@gmail.com" class="btn">Send</a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>Designed and Coded by Guled Yusuf Mohamed | 2023</footer>
+      <!-- Javascript for Mobile Menu -->
+      <script>
+        const menuIcon = document.querySelector(".menu-icon");
+        const mobileMenu = document.querySelector(".mobile-menu");
+        //Mobile navigation toggle
+        menuIcon.addEventListener("click", () => {
+          menuIcon.classList.toggle("active");
+          mobileMenu.classList.toggle("show");
+        });
+      </script>
+    </body>
+  </html>
+</html>
