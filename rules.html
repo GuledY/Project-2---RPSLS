@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Meta tags for SEO -->
+      <meta
+        name="description"
+        content="Play Rock Paper Scissors Lizard Spock - the beloved game inspired by 'The Big Bang Theory.' Master the rules, and have endless fun with this hilarious and strategic twist on the classic game. Join us in the world of RPSLS today!"
+      />
+      <meta
+        name="keywords"
+        content="RPSLS game, Rock Paper Scissors Lizard Spock, Multiplayer game, Strategic gameplay, Fun challenges, The Big Bang Theory, Sheldon Cooper, Hilarious twist, Strategic gaming, Classic game with a twist, Game rules, Play online, Competitive gaming, Entertaining gameplay"
+      />
+      <!-- Title -->
+      <title>RPSLS - Play now!</title>
+      <!-- Favicon -->
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="assets/favicon/apple-touch-icon.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="assets/favicon/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="assets/favicon/favicon-16x16.png"
+      />
+      <!-- Google fonts import -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+      />
+      <!-- Stylesheet -->
+      <link rel="stylesheet" href="assets/css/styles.css" />
+    </head>
+
+    <body>
+      <!-- Navigation -->
+      <div class="navbar">
+        <div class="logo"><a href="index.html">RPSLS</a></div>
+        <div class="menu">
+          <a href="/play.html">Play</a>
+          <a href="/rules.html">Rules</a>
+          <a href="/contact.html">Contact Us</a>
+        </div>
+        <!-- Mobile menu -->
+        <div class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="mobile-menu">
+        <a href="/play.html">Play</a>
+        <a href="/rules.html">Rules</a>
+        <a href="/contact.html">Contact Us</a>
+      </div>
+      <!-- Main content -->
+      <div class="rules-container">
+        <div class="rules-content">
+          <h1>Rules for Rock Paper Scissors Lizard Spock</h1>
+          <br />
+          <p>
+            Rock Paper Scissors Lizard Spock, often abbreviated as RPSLS, is a
+            delightful expansion of the classic Rock Paper Scissors game. This
+            unique twist was popularized by the TV series "The Big Bang Theory."
+          </p>
+          <br />
+          <p>
+            In the show, the character Sheldon Cooper, portrayed by Jim Parsons,
+            introduced this entertaining variation as a means of settling
+            disputes. Sheldon's quirky explanation and humorous approach to the
+            game quickly captured the hearts of viewers. <br />
+            <br />
+            <strong>The rules are as follows:</strong>
+          </p>
+          <br />
+          <ul>
+            <li>Scissors cuts Paper</li>
+            <li>Paper covers Rock</li>
+            <li>Rock crushes Lizard</li>
+            <li>Lizard poisons Spock</li>
+            <li>Spock smashes Scissors</li>
+            <li>Scissors decapitates Lizard</li>
+            <li>Lizard eats Paper</li>
+            <li>Paper disproves Spock</li>
+            <li>Spock vaporizes Rock</li>
+            <li>Rock crushes Scissors</li>
+          </ul>
+          <br />
+          <!-- Rules video -->
+          <h2 class="video-title">Don't feel like reading the rules?</h2>
+          <br />
+          <p class="video-explanation">
+            Watch Sheldon Cooper, the genius behind Rock Paper Scissors Lizard
+            Spock, explain the rules of the game in his unique and entertaining
+            way. Just sit back, relax, and let Sheldon guide you through the
+            game!
+          </p>
+          <br /><iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/_PUEoDYpUyQ"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <p>
+            Credit: <a href="https://www.youtube.com/@Qashix10">Qashi</a> on
+            YouTube
+          </p>
+          <br />
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer>Designed and Coded by Guled Yusuf Mohamed | 2023</footer>
+      <!-- Javascript for Mobile Menu -->
+      <script>
+        const menuIcon = document.querySelector(".menu-icon");
+        const mobileMenu = document.querySelector(".mobile-menu");
+
+        //Mobile navigation toggle
+        menuIcon.addEventListener("click", () => {
+          menuIcon.classList.toggle("active");
+          mobileMenu.classList.toggle("show");
+        });
+      </script>
+    </body>
+  </html>
+</html>
