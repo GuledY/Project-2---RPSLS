@@ -446,6 +446,10 @@ footer {
         margin-top: 20px;
     }
 
+    .rules-content ul {
+        margin-left: 70px;
+    }
+
     .rules-container iframe {
         height: 300px;
         width: 350px;
