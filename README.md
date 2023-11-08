@@ -83,7 +83,8 @@ RPSLS (Rock Paper Scissors Lizard Spock), was built to bring a cool, entertainin
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fguledy.github.io%2FProject-2---RPSLS%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - JavaScript
   - No significant errors were found when passing through JShint
-    ![image](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/743a9956-247d-4c3b-bace-ef2169e9996c)
+
+![image](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/743a9956-247d-4c3b-bace-ef2169e9996c)
     
 ### Unfixed Bugs
 
