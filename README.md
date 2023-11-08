@@ -1,39 +1,135 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# RPSLS (Rock, paper, scissors, lizard, spock)
 
-Welcome,
+RPSLS (Rock Paper Scissors Lizard Spock), was built to bring a cool, entertaining game back to life. The ultimate end goal of the site is to introduce multiplayer functionality, making it possible for friends and family to enjoy the game together, and to bring back fond memories for 'The Big Bang Theory' fans who recall Sheldon Cooper's unique twist on the classic game. The website will be targeted to anyone who enjoys simple, yet engaging games. RPSLS is designed to provide hours of entertainment and nostalgia!
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![RPSLS](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/32c3c39a-0d10-49a4-b950-2c2eeb956af5)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features 
 
-## Codeanywhere Reminders
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Existing Features
 
-`python3 -m http.server`
+- __Navigation Bar__
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Landing page, Main game, Rules and Contact us page and is identical in each page to allow for easy navigation.
+  - The navigation bar becomes a "burger" navigation menu once the device width goes below 1020px.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![Navigation bar](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/d1284c30-967e-4cc9-a4e3-e1612dd47fe5)
+![Mobile nav menu](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/6e23e9cc-6808-411f-8f82-b5be5be74b54)
 
-`http_server`
+- __The landing page image__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The landing includes 5 icons representing Rock, paper, scissors, lizard and spock. 
+  - The hero makes the websites purpose clear to the user at first glance. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Hero](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/609bf51d-996c-4eef-bb72-cdd78d3929bc)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __Club Ethos Section__
 
-To log into the Heroku toolbelt CLI:
+  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
+  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __The Game__
 
----
+  - This section allows the user to play RPSLS against the computer. The game gives the user 5 lives and counts their current score and saves their highest score. 
 
-Happy coding!
+![Game](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/fd2d18e9-71b9-43d2-b116-fb92aca17687)
+
+- __Lives functionality__
+
+  - The user starts the game with 5 lives which depleats as they lose rounds to the computer, once the lives reach 0 the game reaches a game over state.
+  - 
+![Lives](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/84b87725-28e2-4e6f-ab47-8ddcc7a2152c)
+
+- __High Score functionality__
+
+  - The highscore is saved even after the user has depleated their lives and resets the game.
+    
+![Highscore](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/91254d56-f8f9-4f80-8fd1-ada4166b6730)
+
+- __Reset button__
+  
+  - A reset button has been added to restart the game once the user has depleated their lives, with this feature, the user would not need to reload the page to regain their lives.
+  - 
+![Reset button](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/749a25f4-b831-4e39-8085-e108db7caa28)
+
+- __The Footer__ 
+
+  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
+
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+
+- __Rules page__
+
+  - The rules page explains the rules of RPSLS to users who may not have seen 'The Big Bang Theory' - The rules are written out in text form and are also explained in video form by "Sheldon Cooper" via YouTube. 
+
+![Rules](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/9cd80bd2-547d-4d5f-8b93-140974d9d348)
+
+- __Contact form__
+
+  - The contact form page allows users to send a message to my email address with any questions/feature requests they may have.
+
+![Contact](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/e476f0d5-824c-46e0-a70e-56eedcf929c0)
+
+### Features Left to Implement
+
+- Multiplayer functionality (PvP)
+- User profile
+- Highscore leaderboards
+
+## Testing 
+
+- Each page was tested on mobile (Samsung Galaxy S20), a 14 inch laptop screen and a 24 inch monitor to ensure responsiveness. 
+- Highscore functionality was tested by playing through the game and verifying that the highscore is saved and is updated once a higher score is reached.
+- Contact form allows user to send an email to a specified email address.
+- Mobile menu refused to work on index.html, contact.html and rules.html pages - This was fixed by adding the mobile menu Javascript directly into each page using script tags.
+
+![Site on mobile](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/c33b8951-6d14-48f9-b709-76288afae98b)
+![Site on laptop screen](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/400a830d-b6ac-4b2a-abeb-d89e7334fb56)
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+### Unfixed Bugs
+
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+
+
+## Credits 
+
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+
+You can break the credits section up into Content and Media, depending on what you have included in your project. 
+
+### Content 
+
+- Original hero image source was found here: [Favpng](https://favpng.com/png_view/scissors-rock-paper-scissors-rock-paper-scissors-lizard-spock-png/JTBrnZxu/)
+- Instructions on how to create a "burger menu" was found here: [Specific YouTube Tutorial](https://www.youtube.com/watch?v=OFKBep95lb4)
+- Instructions on how to create a highscore function using Javascript was found here [Specific YouTube Tutorial](https://www.youtube.com/watch?v=LEy0Y9QWG88)
+- The YouTube video used to explain the rules of RPSLS was found here [Specific YouTube Tutorial](https://www.youtube.com/watch?v=_PUEoDYpUyQ))
+
+### Media
+
+- The photos used on the home and sign up page are from This Open Source site
+- The images used for the gallery page were taken from this other open source site
+
