@@ -105,7 +105,7 @@ The live link can be found here - [Main Website](https://guledy.github.io/Projec
 
 - Instructions on how to create a "burger menu" was found here: [Burger Menu YouTube Tutorial](https://www.youtube.com/watch?v=OFKBep95lb4)
 - Instructions on how to create a highscore function using Javascript was found here [Highscore YouTube Tutorial](https://www.youtube.com/watch?v=LEy0Y9QWG88)
-- The YouTube video used to explain the rules of RPSLS was found here [RPSLS Rules YouTube Tutorial](https://www.youtube.com/watch?v=_PUEoDYpUyQ))
+- The YouTube video used to explain the rules of RPSLS was found here [RPSLS Rules YouTube Tutorial](https://www.youtube.com/watch?v=_PUEoDYpUyQ)
 
 ### Media
 
