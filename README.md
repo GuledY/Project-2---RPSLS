@@ -35,7 +35,7 @@ In this section, you should go over the different parts of your project, and des
 - __Lives functionality__
 
   - The user starts the game with 5 lives which depleats as they lose rounds to the computer, once the lives reach 0 the game reaches a game over state.
-  - 
+    
 ![Lives](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/84b87725-28e2-4e6f-ab47-8ddcc7a2152c)
 
 - __High Score functionality__
@@ -47,7 +47,7 @@ In this section, you should go over the different parts of your project, and des
 - __Reset button__
   
   - A reset button has been added to restart the game once the user has depleated their lives, with this feature, the user would not need to reload the page to regain their lives.
-  - 
+    
 ![Reset button](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/749a25f4-b831-4e39-8085-e108db7caa28)
 
 - __Rules page__
@@ -81,41 +81,35 @@ In this section, you should go over the different parts of your project, and des
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fguledy.github.io%2FProject-2---RPSLS%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fguledy.github.io%2FProject-2---RPSLS%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- JavaScript
+  - No significant errors were found when passing through JShint
+    ![image](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/743a9956-247d-4c3b-bace-ef2169e9996c)
+    
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+There were no bugs left unfixed.
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
+The live link can be found here - [Main Website](https://guledy.github.io/Project-2---RPSLS/index.html)
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- Original hero image source was found here: [Favpng](https://favpng.com/png_view/scissors-rock-paper-scissors-rock-paper-scissors-lizard-spock-png/JTBrnZxu/)
-- Instructions on how to create a "burger menu" was found here: [Specific YouTube Tutorial](https://www.youtube.com/watch?v=OFKBep95lb4)
-- Instructions on how to create a highscore function using Javascript was found here [Specific YouTube Tutorial](https://www.youtube.com/watch?v=LEy0Y9QWG88)
-- The YouTube video used to explain the rules of RPSLS was found here [Specific YouTube Tutorial](https://www.youtube.com/watch?v=_PUEoDYpUyQ))
+- Instructions on how to create a "burger menu" was found here: [Burger Menu YouTube Tutorial](https://www.youtube.com/watch?v=OFKBep95lb4)
+- Instructions on how to create a highscore function using Javascript was found here [Highscore YouTube Tutorial](https://www.youtube.com/watch?v=LEy0Y9QWG88)
+- The YouTube video used to explain the rules of RPSLS was found here [RPSLS Rules YouTube Tutorial](https://www.youtube.com/watch?v=_PUEoDYpUyQ))
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- Original hero image source was found here: [Favpng](https://favpng.com/png_view/scissors-rock-paper-scissors-rock-paper-scissors-lizard-spock-png/JTBrnZxu/)
 
