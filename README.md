@@ -6,15 +6,12 @@ RPSLS (Rock Paper Scissors Lizard Spock), was built to bring a cool, entertainin
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Landing page, Main game, Rules and Contact us page and is identical in each page to allow for easy navigation.
-  - The navigation bar becomes a "burger" navigation menu once the device width goes below 1020px.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all three pages, the full responsive navigation bar includes links to the Landing page, Main game, Rules and Contact us page and is identical in each page to allow for easy navigation regardless of      device used to access the website.
+  - The navigation bar becomes a "burger" navigation menu once the device width goes below 1020px allowing for a more user-friendly navigation experience.
 
 ![Navigation bar](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/d1284c30-967e-4cc9-a4e3-e1612dd47fe5)
 ![Mobile nav menu](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/6e23e9cc-6808-411f-8f82-b5be5be74b54)
@@ -28,13 +25,13 @@ In this section, you should go over the different parts of your project, and des
 
 - __The Game__
 
-  - This section allows the user to play RPSLS against the computer. The game gives the user 5 lives and counts their current score and saves their highest score. 
-
+  - This section allows the user to play RPSLS against the computer. The game provides the player with 5 lives, keeps track of their current score, and records their highest score.
+    
 ![Game](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/fd2d18e9-71b9-43d2-b116-fb92aca17687)
 
 - __Lives functionality__
 
-  - The user starts the game with 5 lives which depleats as they lose rounds to the computer, once the lives reach 0 the game reaches a game over state.
+  - The player begins the game with 5 lives that gradually diminish as they lose rounds to the computer. When the remaining lives reach zero, the game enters a 'Game Over' state.
     
 ![Lives](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/84b87725-28e2-4e6f-ab47-8ddcc7a2152c)
 
