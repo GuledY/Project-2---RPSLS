@@ -26,13 +26,6 @@ In this section, you should go over the different parts of your project, and des
 
 ![Hero](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/609bf51d-996c-4eef-bb72-cdd78d3929bc)
 
-- __Club Ethos Section__
-
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
 - __The Game__
 
   - This section allows the user to play RPSLS against the computer. The game gives the user 5 lives and counts their current score and saves their highest score. 
@@ -56,13 +49,6 @@ In this section, you should go over the different parts of your project, and des
   - A reset button has been added to restart the game once the user has depleated their lives, with this feature, the user would not need to reload the page to regain their lives.
   - 
 ![Reset button](https://github.com/GuledY/Project-2---RPSLS/assets/141145982/749a25f4-b831-4e39-8085-e108db7caa28)
-
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
 - __Rules page__
 
