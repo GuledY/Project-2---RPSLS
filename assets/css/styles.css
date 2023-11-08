@@ -400,9 +400,13 @@ footer {
     }
 
     .hero-title {
-        font-size: 3.5rem;
+        font-size: 3rem;
         margin-bottom: 20px;
-        line-height: 4.44rem;
+        line-height: 3.6rem;
+    }
+
+    .play-button {
+        font-size: 2.1rem;
     }
 
     /* Play styling */
@@ -467,7 +471,7 @@ footer {
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
-    /* iPads and Tablets */
+    /* Navigation styling */
     .menu {
         display: none;
     }
@@ -558,7 +562,7 @@ footer {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
-    /* Small screens and laptops */
+    /* Navigation styling */
     .menu {
         display: none;
     }
